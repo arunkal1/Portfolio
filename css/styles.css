@@ -1,10 +1,19 @@
+/* Base Styles */
 body {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
+.fixed h1 {
+  color: #4E878C;
+}
+
+.fixed p {
+  color: #4E878C;
+}
+
+/* Column Styles */
 .column-left {
   background-color: #262626;
-  /* height: 100vh; */
   position: relative;
 }
 
@@ -15,21 +24,13 @@ body {
 .fixed {
   padding-left: 70px;
   padding-top: 200px;
-  position: fixed;
   text-transform: uppercase;
+  /* position: fixed; */
 }
 
 .profile-image {
   margin-bottom: 20px;
   width: 200px;
-}
-
-h1 {
-  color: #4E878C;
-}
-
-.fixed p {
-  color: #4E878C;
 }
 
 hr {
@@ -41,4 +42,16 @@ hr {
 .favicons i {
   color: #4E878C;
   padding-right: 5px;
+}
+
+/* Right Box Styles */
+/* Box 1 */
+.box-1, .box-2, .box-3, .box-4{
+  border: #4E878C 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.name-top {
+  padding-top: 10px;
 }
