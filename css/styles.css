@@ -1,6 +1,7 @@
 /* Base Styles */
 body {
   font-family: Tahoma, Geneva, sans-serif;
+  height: 100vh;
 }
 
 .fixed h1 {
@@ -11,6 +12,7 @@ body {
   color: #4E878C;
 }
 
+/* -------------- */
 /* Column Styles */
 .column-left {
   background-color: #262626;
@@ -44,6 +46,13 @@ hr {
   padding-right: 5px;
 }
 
+/* ------- */
+/* Floats */
+.first-image {
+  margin-right: 13px;
+}
+
+/* ---------------- */
 /* Right Box Styles */
 /* Box 1 */
 .box-1, .box-2, .box-3, .box-4{
