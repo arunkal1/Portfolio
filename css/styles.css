@@ -69,3 +69,13 @@ hr {
 .name-top {
   padding-top: 10px;
 }
+
+/* ----------------------------------------- */
+/* Button Styles */
+.btn-margin {
+  margin-bottom: 5px;
+}
+
+.btn-spacing {
+  white-space: normal;
+}
